@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>I have no answer for that.</template>
+  </category>
+  <category>
+      <pattern>hello *</pattern>
+      <template>हेलो ! कफवाह सपोर्ट में आपका स्वागत है, मैं आपकी क्या सहायता कर सकती हूँ?   </template>
+  </category>
+  <category>
+      <pattern>_ magnetic *</pattern>
+      <template>नहीं ! वैक्सीन लगवाने से आप मैग्नेटिक नहीं बनेगे </template>
+  </category>
+  <category>
+      <pattern>blood *</pattern>
+      <template>नहीं कोरोना और ब्लड ग्रुप का कोई ठोस सम्बन्ध नहीं है </template>
+  </category>
+  <category>
+      <pattern>_ black fungus *</pattern>
+      <template>ब्लैक फंगस संक्रामक नहीं है, जिसका अर्थ है कि यह मनुष्यों या जानवरों के संपर्क से नहीं फैल सकता है</template>
+  </category>
+  <category>
+      <pattern>blackfungus *</pattern>
+      <template>ब्लैक फंगस संक्रामक नहीं है</template>
+  </category>
+  
+   <category>
+      <pattern>blackfungus</pattern>
+      <template>ब्लैक फंगस संक्रामक नहीं है</template>
+  </category>
+  
+   <category>
+      <pattern>blackfungus</pattern>
+      <template>ब्लैक फंगस संक्रामक नहीं है</template>
+  </category>
+  
+  <category>
+      <pattern>vaccine</pattern>
+      <template>वैक्सीन सेफ और सुरक्षित है 
+           <link>
+          <text>यह न्यूज़ पेज आप देख सकते हैं जानकारी के लिए </text>
+          <url>https://navbharattimes.indiatimes.com/coronavirus/what-should-you-do-and-do-not-before-and-after-corona-vaccination/articleshow/81324746.cms</url>
+      </link></template>
+  </category>
+  
+   <category>
+      <pattern>_ vaccine *</pattern>
+      <template>वैक्सीन सेफ और सुरक्षित है 
+       <link>
+          <text>यह न्यूज़ पेज आप देख सकते हैं जानकारी के लिए </text>
+          <url>https://navbharattimes.indiatimes.com/coronavirus/what-should-you-do-and-do-not-before-and-after-corona-vaccination/articleshow/81324746.cms</url>
+      </link></template>
+  </category>
+  
+  <category>
+      <pattern>vaccine *</pattern>
+      <template>वैक्सीन सेफ और सुरक्षित है 
+       <link>
+          <text>यह न्यूज़ पेज आप देख सकते हैं जानकारी के लिए </text>
+          <url>https://navbharattimes.indiatimes.com/coronavirus/what-should-you-do-and-do-not-before-and-after-corona-vaccination/articleshow/81324746.cms</url>
+      </link></template>
+  </category>
+  
+  <category>
+      <pattern>* vaccine</pattern>
+      <template>वैक्सीन सेफ और सुरक्षित है  
+      <link>
+          <text>यह न्यूज़ पेज आप देख सकते हैं जानकारी के लिए </text>
+          <url>https://navbharattimes.indiatimes.com/coronavirus/what-should-you-do-and-do-not-before-and-after-corona-vaccination/articleshow/81324746.cms</url>
+      </link>
+      </template>
+  </category>
+  
+</aiml>
